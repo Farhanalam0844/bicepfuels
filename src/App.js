@@ -6,7 +6,6 @@ import Home from './components/home';
 import Contact from './components/Contact';
 import About from './components/About'
 import { BrowserRouter , Routes, Route } from "react-router-dom";
-import Login from './components/login';
 import Blogs from './components/blogs';
 import Product from './components/Product';
 import Cart from './components/Cart';
@@ -44,10 +43,10 @@ function App() {
    <Nav2 length={data.length} />
 </header>
 <Routes>
-   <Route path='/' element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
+   <Route path='/'  element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
+   <Route  path='/bicepfuels/' element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
    <Route path='/contact' element={<Contact />} />
    <Route path='/about' element={<About />} />
-   <Route path='/login' element={<Login />} />
    <Route path='/blog' element={<Blogs />} />
   <Route path='/product/cart' element={<Cart removeFromCart={removeFromCart} cart={data} />} />
   <Route path='/product/cart/form' element={<CartForm cart={data}  />} />
