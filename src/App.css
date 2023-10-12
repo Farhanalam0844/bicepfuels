@@ -1,159 +1,354 @@
-*{
+* {
   margin: 0px;
   list-style: none;
   text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+header,
+.about,
+.contact,
+.cart,
+.product,
+.blog,
+.homesec2,
+.home3 {
+  background-color: azure;
   color: wheat;
 }
-header , nav , .about , .contact , .homesec2 {
-  background-color: #5d6d7e;
-  color:  wheat;
+
+header figcaption,
+header .heading {
+  margin: 0px;
 }
-.heading{
+
+nav,
+.nav1,
+.nav2 {
+  background-color: whitesmoke;
+}
+
+.headerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.heading {
   text-align: center;
-  padding: 0.5em ;
+  padding: 0.5em;
 }
-h1{
+
+h1 {
   font-size: 3em;
 }
-.nav ul li a{
+
+.nav ul li a {
   font-size: 1.5em;
 }
-.nav1{
+
+.nav1 {
   text-align: center;
   font-size: 1.3em;
   padding: 0.5em;
-  background-color: #FF5733;
 }
-.nav1 ul{
+
+.nav1 ul {
   display: flex;
   flex-direction: row;
-  justify-content:center ;
+  justify-content: center;
   flex-wrap: wrap;
-  
+
 }
-.nav1 ul li{
+
+.nav1 ul li {
   padding: 0.3em 0.6em;
 
 }
-.nav2{
+
+.nav2 {
   text-align: left;
   font-size: 1.1em;
-  background-color: #FF5733;
 }
-.nav2list{
-  animation: navAnim 2s ease-in-out ;
+
+.nav2list {
+  animation: navAnim 2s ease-in-out;
 }
+
 @keyframes navAnim {
+
+  /*
   0%{
-    transform: translateY(2vh);
+  transform: translateY(2vh);
   }
   100%{
     transform: translateY(0vh);
   }
+*/
+  0% {
+    height: 0px;
+  }
 
+  100% {
+    height: 67vh;
+  }
 }
-.nav2 ul{
+
+.nav2 ul {
   display: flex;
   flex-direction: column;
-  justify-content:center ;
+  justify-content: center;
   flex-wrap: wrap;
 
 
 }
-.nav2 ul li{
-  padding:  1em 0.3em;
+
+.nav2 ul li {
+  padding: 1em 0.3em;
   width: 100vw;
 }
 
-.fa-icon{
+.fa-icon {
   position: absolute;
   right: 3%;
   margin-top: 2em;
 }
-.btn{
+
+.btn {
   color: #ffffff;
-  background-color: #004080;
+  background-color: #4a7cae;
   border: none;
   font-size: large;
   border-radius: 4em;
   padding: 0.8em 2em;
-  
+
 }
-.btn:hover{
-  transform: scale(1.05); /* Increase size slightly on hover */
+
+.btn:hover {
+  transform: scale(1.05);
+  /* Increase size slightly on hover */
   cursor: pointer;
-box-shadow: 2px 3px 2px rgba(55, 49, 49, 0.686);
-background-color: #FF5733 ;
-transition: background-color 1s ease-in-out;
-color: #333333;
+  box-shadow: 2px 3px 2px rgba(55, 49, 49, 0.686);
+  background-color: #FF5733;
+  transition: background-color 1s ease-in-out;
+  color: #333333;
 }
-.fa-icon:hover{
+
+.fa-icon:hover {
   cursor: pointer;
-  
+
 }
-.active{
+
+.active {
   text-decoration: underline;
   font-weight: bold;
 }
 
-.home{
-  background-image: url(/src/images/athletic-man-woman-with-dumbbells.jpg);
+.home {
+  background-image: url(/src/images/interior-equipment-modern-gym-close-up-view-suspension-straps-sport-fitness-health-min\ \(2\).jpg);
   background-repeat: no-repeat;
-
   background-size: cover;
-  width: 99vw;
-  height: 100vh;
+  height: 90vh;
 }
-.home .article{
- padding: 22vh 5vw;
+
+.home .article {
+  padding: 20vh 5vw;
+  padding-bottom: 26em;
 }
-.home .h1 , .home .h3{
-  color:#FF5733; 
-  padding: 0.3em; 
+
+.home .h1,
+.home .h3 {
+  color: wheat;
+  ;
+  padding: 0.2em;
 }
-.home .btn{
-margin-top: 0.5em;
+
+.home .btn {
+  margin-top: 0.5em;
 }
-.heading1{
+
+.home .article {
   text-align: center;
-  padding: 0px;
-  margin: 0;
+  padding: 3em;
   color: greenyellow;
-  font-size: 2em;
-  opacity: 60%;
-  animation: myHeading 3s infinite both ease-in-out;
+  font-size: 1em;
 }
+
 @keyframes myHeading {
-  0%{
-    transform: translateX(-10vw);
+  0% {
+    transform: translateY(-10vw);
   }
-  50%{
-    transform: translateX(20vw);
-  }  
-  100%{
-    transform: translateX(-10vw);
+
+  50% {
+    transform: translateY(20vw);
+  }
+
+  100% {
+    transform: translateY(-10vw);
   }
 }
+
 .home2 {
+  background-color: #f3e4d9;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0.5em 2em;
   text-align: center;
+  margin: auto;
+  align-items: center;
 }
-.home2 figure{
-  padding: 1em;
+
+.home2 figure {
+  text-align: center;
+  align-items: center;
+  padding: 1em 4em;
   opacity: 90%;
 }
-.home figure:hover{
+
+.home figure:hover {
   opacity: 100%;
-  text-shadow:  5px 5px 5px rgb(24, 22, 22);
+  text-shadow: 5px 5px 5px rgb(202, 171, 144);
 }
-.home2 a img{
+
+.home2 a img {
   width: 15vw;
 }
-figcaption{
+
+.home2 figcaption {
   align-items: center;
   text-align: center;
   font-size: larger;
+}
+
+.home3 {
+  padding: 2em;
+
+}
+
+.home3 img {
+  margin-left: 20vw;
+  width: 20vw;
+}
+
+.home3 article {
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home3 h1 {
+  padding-bottom: 0.5em;
+}
+
+.btn4 {
+  background-color: rgb(121, 130, 155);
+  color: black;
+  padding: 0.4em 0.8em;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 0.2em;
+  margin-top: 1em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.434);
+  transition: background-color 1s ease-in-out;
+}
+
+.btn4:hover {
+  cursor: pointer;
+  color: rgb(121, 130, 155);
+  background-color: black;
+  border: 2px solid rgb(81, 74, 74);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.434);
+}
+
+figcaption {
+  font-size: larger;
+}
+
+#footer img {
+  width: 25px;
+}
+
+#footer img:hover {
+  cursor: pointer;
+}
+
+#footer {
+  background-color: whitesmoke;
+  padding: 1em 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#footer article {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#footer li {
+  font-size: larg e;
+  padding: 0.3em;
+}
+
+#footer a {
+  transition: background-color 2s ease-in-out;
+}
+
+#footer a:hover {
+  color: blueviolet;
+}
+
+.login {
+  background-color: lightblue;
+  height: 80vh;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.login button {
+  margin: auto;
+  margin-top: 2em;
+  width: 10vw;
+}
+
+input {
+  border-radius: 0.5em;
+  font-size: large;
+  padding: 0.5em 1em;
+  margin: auto;
+  margin: 1em 40vw;
+  width: 20vw;
+}
+
+.underline {
+  list-style: inside !important;
+}
+
+#categories figcaption {
+  font-size: 1.5em;
+}
+
+#categories figure:hover {
+  font-weight: bold;
+}
+
+.product img {
+  border-radius: 0.7em;
+}
+
+.product button {
+  margin: 0.3em;
+}
+
+.pageItem img {
+  border-radius: 3em;
 }

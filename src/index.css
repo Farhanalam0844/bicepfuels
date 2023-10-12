@@ -1,33 +1,329 @@
-.cart{
-  position: absolute;
-  background-color: cadetblue;
-  width: 30vw;
-  height: 100vh;
-top: 0px;
-right: 0px;
-animation: myCart 1s ease-in-out ;  
-} 
+.cart {
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
 @keyframes myCart {
-  0%{
+  0% {
     transform: translateX(30vw);
   }
-   100%{
+
+  100% {
     transform: translateX(0vw);
   }
 }
+
 @media (max-width:550px) {
-  .nav1{
+  .nav1 {
     display: none;
   }
-  .nav2{
+
+  .nav2 {
     display: block;
   }
 }
+
 @media (min-width:550px) {
-  .nav2{
+  .nav2 {
     display: none;
   }
-  .nav1{
+
+  .nav1 {
     display: block;
   }
+}
+
+.btn5 {
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid black;
+  font-size: large;
+  padding: 0.5em;
+  border-radius: 0.3em;
+}
+
+.btn5:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgba(54, 54, 168, 0.502);
+  background-color: white;
+  color: darkcyan;
+
+}
+
+.blog {
+  background-color: grey;
+  color: black;
+  padding: 1em 4em;
+}
+
+.blog article {
+  margin: 1em;
+}
+
+.blog p {
+  font-size: larger;
+}
+
+/* ContactForm.css */
+.contact-form-container {
+
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+form{
+  padding-bottom: 2em;
+}
+
+.contact label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.contact input[type='text'],
+.contact input[type='Address'],
+.contact input[type='tel'],
+.contact input[type='email'],
+.contact textarea {
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: auto;
+}
+
+.contact textarea {
+  width: 50vw;
+}
+
+.contact button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 6em;
+}
+
+.contact button:hover {
+  background-color: orange;
+}
+
+.product {
+  padding: 2em;
+}
+
+.product figure {
+  padding: 1.5em;
+  border-radius: 0.5em;
+  border: 0.5px solid black;
+  margin: 1.2em;
+  background-color: mistyrose;
+}
+
+.product figure:hover {
+  padding: 1.51em;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.492);
+  cursor: pointer;
+
+}
+
+.product img {
+  width: 15vw;
+}
+
+.product article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product figcaption {
+  font-size: larger;
+  margin: 0.3em;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* CSS for the About Us component */
+
+.about-us {
+  padding: 3em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.about-us .heading {
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Style the signature separately */
+.about-us p:last-child {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+@media (max-width:530px) {
+  .home .article {
+    padding: 5vh 5vw !important;
+  }
+
+  .home .btn {
+    margin-top: 0px;
+  }
+
+  .home .article {
+    padding: 2em;
+    font-size: 0.6em;
+  }
+}
+
+
+
+.cart2 article {
+  margin: 2em;
+}
+
+.error-container {
+  text-align: center;
+  padding: 3em;
+}
+
+.home h1 {
+  font-size: 2em;
+  margin-bottom: 0.8em;
+}
+
+.home p {
+  font-size: 1em;
+  margin-bottom: 1.2em;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+/* product-page.css */
+.product-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.cartSection {
+
+  border-radius: 1em;
+  box-shadow: 2px 2px 5px black;
+  font-size: larger;
+  margin: 1em;
+  background-color: rgb(155, 152, 152);
+}
+.product figure{
+  width: 15em;
+}
+.product figure img{
+  width: 10em;
+}
+.product figure img:hover{
+  width: 15.5em;
+  transition: width 0.5s ease-out;
+}
+figcaption{
+  margin: 0.3em;
+}
+.pageItem{
+  padding: 2em;
+  word-spacing: 10%;
+}
+.pageItem article{
+  margin: 2em 0em;
+}
+@media screen and (max-width:600px) {
+  .blog h1{
+    font-size: 2em;
+  }
+}
+.cart article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

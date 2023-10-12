@@ -1,8 +1,10 @@
 {
+  "homepage": "https://Farhanalam0844.github.io/Bicep-Fuels/",
   "name": "ecom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -19,11 +21,14 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "router-dom": "^2.2.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,6 +53,8 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
+    "style-loader": "^3.3.3"
   }
 }
