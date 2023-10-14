@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bicepfuels/static/css/main.12ff6850.css",
+    "main.css": "/bicepfuels/static/css/main.89634ea2.css",
     "main.js": "/bicepfuels/static/js/main.c446cd8f.js",
     "static/js/787.d4c951d8.chunk.js": "/bicepfuels/static/js/787.d4c951d8.chunk.js",
     "static/media/interior-equipment-modern-gym-close-up-view-suspension-straps-sport-fitness-health-min (2).jpg": "/bicepfuels/static/media/interior-equipment-modern-gym-close-up-view-suspension-straps-sport-fitness-health-min (2).a1f71013b42da87754e7.jpg",
@@ -43,12 +43,12 @@
     "static/media/facebook.png": "/bicepfuels/static/media/facebook.a5def58db1e9c1b38269.png",
     "static/media/man.png": "/bicepfuels/static/media/man.483002f203b2cd2dbf7e.png",
     "index.html": "/bicepfuels/index.html",
-    "main.12ff6850.css.map": "/bicepfuels/static/css/main.12ff6850.css.map",
+    "main.89634ea2.css.map": "/bicepfuels/static/css/main.89634ea2.css.map",
     "main.c446cd8f.js.map": "/bicepfuels/static/js/main.c446cd8f.js.map",
     "787.d4c951d8.chunk.js.map": "/bicepfuels/static/js/787.d4c951d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ff6850.css",
+    "static/css/main.89634ea2.css",
     "static/js/main.c446cd8f.js"
   ]
 }
