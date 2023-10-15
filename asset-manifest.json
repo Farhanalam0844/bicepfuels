@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bicepfuels/static/css/main.9fd7058e.css",
-    "main.js": "/bicepfuels/static/js/main.b1b0263e.js",
+    "main.css": "/bicepfuels/static/css/main.bca56a40.css",
+    "main.js": "/bicepfuels/static/js/main.af7181d6.js",
     "static/js/787.d4c951d8.chunk.js": "/bicepfuels/static/js/787.d4c951d8.chunk.js",
     "static/media/interior-equipment-modern-gym-close-up-view-suspension-straps-sport-fitness-health-min (2).jpg": "/bicepfuels/static/media/interior-equipment-modern-gym-close-up-view-suspension-straps-sport-fitness-health-min (2).a1f71013b42da87754e7.jpg",
     "static/media/gold standard whey protein .jpg": "/bicepfuels/static/media/gold standard whey protein .1250eb7a29a9f4e543c6.jpg",
@@ -43,12 +43,12 @@
     "static/media/facebook.png": "/bicepfuels/static/media/facebook.a5def58db1e9c1b38269.png",
     "static/media/man.png": "/bicepfuels/static/media/man.483002f203b2cd2dbf7e.png",
     "index.html": "/bicepfuels/index.html",
-    "main.9fd7058e.css.map": "/bicepfuels/static/css/main.9fd7058e.css.map",
-    "main.b1b0263e.js.map": "/bicepfuels/static/js/main.b1b0263e.js.map",
+    "main.bca56a40.css.map": "/bicepfuels/static/css/main.bca56a40.css.map",
+    "main.af7181d6.js.map": "/bicepfuels/static/js/main.af7181d6.js.map",
     "787.d4c951d8.chunk.js.map": "/bicepfuels/static/js/787.d4c951d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd7058e.css",
-    "static/js/main.b1b0263e.js"
+    "static/css/main.bca56a40.css",
+    "static/js/main.af7181d6.js"
   ]
 }
