@@ -30,25 +30,11 @@ export default function Footer() {
                             Protein
                         </HashLink >
                     </li>
-
-                    <li>
-
-                        <HashLink smooth to='/product#fat'>
-                            Fat Burner
-                        </HashLink >
-                    </li>
                     <li>
                         <HashLink smooth to='/product#pre'>
                             Pre Workout
                         </HashLink >
                     </li>
-                    <li>
-
-                        <HashLink smooth to='/product#accessory'>
-                            Accessories
-                        </HashLink >
-                    </li>
-
                 </ul>
             </article>
             <article>

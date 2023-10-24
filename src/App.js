@@ -42,7 +42,9 @@ function App() {
     <Nav length={data.length} />
    <Nav2 length={data.length} />
 </header>
-<Chat />
+{
+ // <Chat />
+}
 <Routes>
    <Route path='/'  element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
    <Route  path='/bicepfuels/' element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
