@@ -4,41 +4,24 @@ import Footer from './footer';
 const About = () => {
   return (
     <>
-    <div className="about-us about">
-      <h1 className='heading'>About Our Supplement Store</h1>
-      <p>
-        Welcome to our premier supplement store, where your fitness and health
-        journey begins. We are passionate about helping you achieve your fitness
-        goals by offering a wide range of high-quality gym products and
-        supplements. At our store, we believe that everyone deserves access to
-        the best products to enhance their fitness regimen.
-      </p>
-      <p>
-        Our mission is to empower individuals on their fitness journey by
-        providing them with the tools they need to succeed. Whether you're a
-        seasoned athlete or just starting out, we have something for everyone.
-        Our team of fitness enthusiasts is dedicated to assisting you in making
-        informed choices about the supplements and products that best suit your
-        needs.
-      </p>
-      <p>
-        As fitness enthusiasts ourselves, we understand the importance of
-        quality, effectiveness, and affordability. That's why we carefully curate
-        our product selection to ensure you have access to top-notch brands and
-        cutting-edge supplements.
-      </p>
-      <p>
-        Thank you for choosing our supplement store to be a part of your
-        fitness journey. We're here to support you every step of the way. If you
-        have any questions or need guidance, please don't hesitate to reach out.
-        Together, we can achieve your fitness goals and live a healthier,
-        happier life.
-      </p>
-      <p>Stay motivated, stay healthy!</p>
-      <p>Sincerely,</p>
-      <p>Your Supplement Store Team</p>
-    </div>
-    <Footer />
+      <div className="about-us about">
+        <h1 className='heading'>About Our Supplement Store</h1>
+        <p>
+          Welcome to Bicep Fuel, your premier destination for kickstarting your fitness and health journey. We are dedicated to fueling your ambitions with a diverse range of top-quality gym products and supplements. Our commitment is to ensure everyone has access to the finest tools for optimizing their fitness routines.
+    <br />
+          Our mission is to empower individuals in achieving their fitness goals by providing expert guidance and access to products tailored to their needs. Whether you're an experienced athlete or a beginner, we cater to all levels of fitness enthusiasts. Our knowledgeable team is here to help you make well-informed choices about the most suitable supplements and products.
+    <br />
+          As fellow fitness enthusiasts, we value the significance of quality, efficacy, and affordability. Hence, we meticulously curate our collection to offer you only the best-in-class brands and innovative supplements.
+    <br />
+          Thank you for choosing Bicep Fuel to accompany you on your fitness journey. We are dedicated to supporting and guiding you every step of the way. If you have any queries or require assistance, please feel free to get in touch. Let's work together towards achieving your fitness aspirations and leading a happier, healthier life.
+    <br />
+          Stay inspired, stay fit!
+    <br />
+          Warm regards,
+    <br />
+          The Bicep Fuel Team</p>
+      </div>
+      <Footer />
     </>
   );
 };

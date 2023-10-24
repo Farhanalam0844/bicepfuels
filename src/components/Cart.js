@@ -18,9 +18,9 @@ export default function Cart(props) {
 
         {
           props.cart &&
-          props.cart.map((e) => {
+          props.cart.map((e, ind) => {
             return (
-                  <figure style={{ width: '20vw' }}>
+                  <figure key={ind} style={{ width: '20vw' }}>
                     <img style={{ width: '15vw' }} src={e.pic} alt="" onClick={(e) => {
                       props.Item(e);
                       navigate('/item')

@@ -205,7 +205,7 @@ function Trending(props) {
                                 <img src={e.pic} alt="" onClick={() => handleClick(item)} />
                                 <figcaption onClick={() => handleClick(item)} >Name : <strong> {e.name}</strong></figcaption>
                                 <figcaption onClick={() => handleClick(item)}>Weight : <strong> {e.weight}</strong></figcaption>
-                                <figcaption onClick={() => handleClick(item)}>Price : <strong> {e.price}</strong></figcaption>
+                                <figcaption onClick={() => handleClick(item)}>Price : <strong> {e.price}</strong>/Rs</figcaption>
                                 <button onClick={() => {
                                     addToCart(e);
                                     props.submit(e);

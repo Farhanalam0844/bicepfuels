@@ -9,8 +9,7 @@ function Contact(props) {
         });
         return total;
     };
-    let item=props.cart;
-    console.log('Cart', item)
+    let item = props.cart;
 
     /* const [formData, setFormData] = useState({
        name: '',
@@ -38,6 +37,7 @@ function Contact(props) {
     return (
         <div className="contact-form-container contact">
             <h1 className='heading'>Check Out</h1>
+
             <form onSubmit={HandleSubmit}
             >
                 <div className="form-group">
@@ -114,19 +114,19 @@ function Contact(props) {
                         readOnly
                     />
                 </div>
-               
+
                 <div className="form-group">
                     <input type="text"
                         name='Total'
                         id='Total'
-                        defaultValue={'Total Price : ' + calculateTotal()}
+                        defaultValue={'Total Price : ' + calculateTotal()+ '/Rs'}
                         readOnly
                     />
                 </div>
                 <h5>Cash on Delievery Only</h5>
-                <button type="submit" disabled={calculateTotal()===0 }>Check out</button>
+                <button type="submit" disabled={calculateTotal() === 0}>Check out</button>
             </form>
-          
+
         </div>
     );
 }

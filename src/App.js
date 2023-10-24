@@ -13,7 +13,7 @@ import NotFoundPage from './components/error';
 import { useEffect, useState } from 'react';
 import CartForm from './components/CartForm';
 import ProductPage from './components/productPage';
-
+import  Chat  from './components/Chat';
 function App() {
   const [data, setData]=useState([]);
   const [pageItem, setPageItem]=useState({});
@@ -42,6 +42,7 @@ function App() {
     <Nav length={data.length} />
    <Nav2 length={data.length} />
 </header>
+<Chat />
 <Routes>
    <Route path='/'  element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />
    <Route  path='/bicepfuels/' element={<Home  trending={trending} handlePageItem={handlePageItem} submit={submit} /> } />

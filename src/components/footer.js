@@ -73,7 +73,7 @@ export default function Footer() {
                 <ul >
                     <li> <Link href="/about"> Terms and Conditions</Link></li>
                     <li> <Link href="/about"> Copyright Reserved</Link></li>
-                    <li> <Link href="/about">© 2023 Supps</Link></li>
+                    <li> <Link href="/about">© 2023 Bicep Fuels</Link></li>
 
                 </ul>
             </article>

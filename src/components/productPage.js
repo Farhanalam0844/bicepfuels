@@ -8,7 +8,7 @@ const ProductPage = (props) => {
   return (
     <>
     <section className='pageItem'>
-      <article>
+      <article className='itempg1'>
         <figure>
           <img style={{ width: '20vw', padding: '2em' }} src={e.pic} alt="" />
           <figcaption>Name : <strong> {e.name}</strong></figcaption>

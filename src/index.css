@@ -1,3 +1,4 @@
+
 .cart {
   background-color: lightblue;
   min-height: 100vh;
@@ -121,7 +122,7 @@ form{
 }
 
 .product {
-  padding: 2em;
+  padding: 2em 1em;
 }
 
 .product figure {
@@ -147,6 +148,8 @@ form{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .product figcaption {
@@ -179,7 +182,6 @@ form{
 
 /* Style the signature separately */
 .about-us p:last-child {
-  font-weight: bold;
   padding-top: 20px;
 }
 
@@ -315,6 +317,7 @@ figcaption{
   word-spacing: 10%;
 }
 .pageItem article{
+
   margin: 2em 0em;
 }
 @media screen and (max-width:600px) {
@@ -327,3 +330,5 @@ figcaption{
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+

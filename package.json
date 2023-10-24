@@ -11,9 +11,11 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@mui/icons-material": "^5.14.13",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
     "bootstrap": "^5.3.1",
     "express": "^4.18.2",
     "hashlink": "^0.12.1",
@@ -24,6 +26,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "router-dom": "^2.2.11",
+    "twilio": "^4.18.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -53,6 +56,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "css-loader": "^6.8.1",
     "gh-pages": "^6.0.0",
     "style-loader": "^3.3.3"
